@@ -1,0 +1,46 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+#mainbox{
+  width: 36%;
+  height: 31.2%;
+  position: absolute;
+  overflow: hidden;
+  top: 23.5%;
+  left: 30.8%;
+  border-radius: 2%;
+}
+#imgbox{
+  width: 300%;
+  position: relative;
+  left: 0px;
+  animation: slidemove 30s infinite;
+}
+#imgbox img{
+  width: 33.33%;
+  float: left;
+}
+@-webkit-keyframes slidemove{
+  0%{
+    left: 0px;
+  }
+  25%{
+    left: -100%;
+  }
+  50%{
+    left: -200%;
+  }
+  75%{
+    left: -100%;
+  }
+  100%{
+    left: 0px;
+  }
+}
+#bg{
+
+  height: 100vh;
+  background-image: url('https://www.popsci.com/sites/popsci.com/files/styles/1000_1x_/public/images/2017/09/computer-on-desk-blank-screen.jpg?itok=jUbHvNM9&fc=50,50');
+  background-size: 100% 100%;
+}
